@@ -120,7 +120,7 @@ async def rounded_rectangle(rectangle, xy, corner_radius, fill=None, outline=Non
 @some_sticker_bot.on_message(filters.command("start"))
 async def start_handler(c: Client, m: Message):
     await m.reply_text(
-        "Hi there, kaliya waxan badala Qoralka ad iso dirto waxana ubadala sticker.\nSpread Love💕 Not Hate Support:- @Somalibots",
+        "Hi there, kaliya waxan badala Qoralka ad iso dirto waxana ubadala sticker.\nSpread Love💕 Not Hate \n\nSupport:- @Somalibots",
         disable_web_page_preview=True
     )
 
